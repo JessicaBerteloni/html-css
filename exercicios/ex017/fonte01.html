@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Fonttes em CSS</title>
+        <style>
+            body {
+                font-family: "work Sans" Arial, Helvetica, sans-serif; 
+                /*
+                Medidas absolutas
+                cm, mm, in, px, pt, pc
+                
+                Medidas Relativas
+                em, ex, rem, vw, vh, %
+                16px geralmente = 1em
+                */
+                font-size: 1em;
+
+                /*lighter normal bold bolder*/
+             }
+
+             h1{
+                font-family:"Work Sans" ;
+                font-weight:bolder ;
+                font-size: 3em;
+                font-style:italic ;
+                /* ordem do shorthand= font-style -> font-weigth -> font-family */
+                /* shorthand font, junta tudo*/
+                font: italic bolder 3em "Work Sans, sans-serif"
+              }
+
+              h2{
+                  font:bold 2em "Work Sans";
+              }
+        </style>
+    </head>
+    <body>
+        <h1>Trabalhando com fontes</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ipsam
+             repellat voluptatibus ut autem error, accusantium aspernatur sunt 
+             doloribus magnam, ducimus quos explicabo. Nihil excepturi nisi itaque 
+             ipsa facilis inventore!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, magnam 
+            commodi culpa quod quos eius at eveniet hic et. Nam cum voluptate vero
+             nesciunt laborum reiciendis! Culpa deserunt animi labore!</p>
+             <h2>Subtitulo do exercicio</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Incidunt, iste reprehenderit nesciunt illum, voluptatibus
+                  eos vitae blanditiis similique id sint inventore officiis. 
+                  Corporis, dicta. Nam natus quod quisquam facere tenetur.</p>
+            
+    </body>
+</html>
